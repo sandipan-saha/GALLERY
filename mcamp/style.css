@@ -1,0 +1,117 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html, body{
+  height: 100%;
+}
+
+.container{
+  min-height: 100%;
+}
+/* nav bar styling */
+ul {
+  list-style: none;
+  display: table;
+  background-color: gainsboro;
+  min-height: 80px;
+  width: 100%;
+}
+
+ul li {
+  padding: 0 30px;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+li a{
+  text-decoration: none;
+  color: black;
+  font-family: 'Oswald', sans-serif;
+  width: 100%;
+}
+
+ ul li:hover{
+  background-color: LightSlateGray;
+}
+/* nav bar styling ends here */
+
+/* page title styling */
+.page-title{
+  margin: 50px 0;
+  display: table;
+  width: 100%;
+}
+
+.page-title h1{
+  display: table-cell;
+  text-align: center;
+  font-family: "Macondo", sans-serif;
+}
+/*page titlte styling ends here */
+
+body{
+  background-image: url("img/bgpic.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wrapper{
+  margin: 2px;
+  overflow: auto;
+}
+
+.one-fourth{
+  width: 20%;
+  float: left;
+  margin: 2%;
+}
+
+img{
+  display: block;
+  max-width: 100%;
+  height: 250px;
+  width: auto;
+}
+
+img:hover{
+  opacity:.8;
+  transform: scale(1.1);
+  transition: 0.5s;
+ }
+
+ .lightbox{
+   font-family: 'Macondo', cursive, sans-serif;
+ }
+
+@media screen and (max-width: 768px){
+  .one-fourth{
+    width: 43%;
+    margin: 3%;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .one-fourth{
+    width: 98%;
+    margin: 1%;
+    margin-top: 4%
+  }
+}
+
+
+
+/* sample footer styling starts here */
+
+.copyright_text {
+  background-color: gainsboro;
+  width: 100%;
+  text-align: center;
+	font-family:'Oswald', sans-serif;
+	float: left;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+  color: #A3A3A3;
+}
+/* sample footer styling ends here*/
